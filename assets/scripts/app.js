@@ -154,7 +154,9 @@ async function getCpuChoice() {
 function getPlayerChoice() {
 	cells.forEach(cell => {
 		if (!cell.classList.contains('x') && !cell.classList.contains('o')) {
-			cell.addEventListener('click', playHandler, { once: true });
+			cell.addEventListener('click', playHandler, {
+				once: true
+			});
 		}
 	});
 }
