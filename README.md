@@ -24,9 +24,3 @@ A simple Tic-Tac-Toe game built using HTML, CSS, and JavaScript.
 3. The first player to align three of their symbols vertically, horizontally, or diagonally wins.
 4. If all grid cells are filled and no player has aligned three symbols, the game ends in a draw.
 5. Click on "Restart" to start a new game.
-
-## How to Run Locally
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/tic-tac-toe-main.git
